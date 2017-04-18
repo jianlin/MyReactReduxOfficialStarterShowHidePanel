@@ -4,6 +4,5 @@ body {
   font-family: sans-serif;
 }
 
-
-.toggle-panel div.hidden { opacity: 0; top: 160px;  }
-.toggle-panel div { transition: all 0.75s; position: relative; top: 0px; width: 300px; height: 300px; margin: 20px auto 0; background: #acf; border-radius: 6px; }
+.toggle-panel div.panel { transition: all 0.75s; position: relative; top: 0px; width: 300px; height: 300px; margin: 20px auto; background: #28f; border-radius: 6px; padding: 0.8em; }
+.toggle-panel div.panel.hidden { opacity: 0; top: 160px; z-index: -1; }

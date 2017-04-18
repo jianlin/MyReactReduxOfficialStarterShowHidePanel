@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+.toggle-panel div.hidden { opacity: 0; top: 160px;  }
+.toggle-panel div { transition: all 0.75s; position: relative; top: 0px; width: 300px; height: 300px; margin: 20px auto 0; background: #acf; border-radius: 6px; }
